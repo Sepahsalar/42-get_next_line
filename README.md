@@ -5,13 +5,13 @@ This project is about creating your own function that returns a line read from o
 
 # Content
 
-1. [Installation](#installation)
+1. [Usage](#usage)
 2. [Description](#description)
 3. [Algorithm](#algorithm)
 
 </br>
 
-## Installation
+## Usage
 
 Follow the steps below to test the project: 
 
