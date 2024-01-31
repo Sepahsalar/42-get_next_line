@@ -1,5 +1,5 @@
 # 42-get_next_line
-This project is about creating your own function that returns a line read from one file descriptor or more, if you consider the bonus project requirement. The function get_next_line() returns NULL, if there is nothing else to read or if an error occurred. It should work as expected both when reading a file and when reading from the standard output.
+This project is about creating your own function that returns a line read from one file descriptor or more, if you consider the bonus project requirement. The function `get_next_line()` returns `NULL`, if there is nothing else to read or if an error occurred. It should work as expected both when reading a file and when reading from the standard output.
 
 </br>
 
@@ -29,7 +29,7 @@ $> cc -Wall -Wextra -Werror -D BUFFER_SIZE='any_number' <files>.c
 
 ## Description
 
-This projects is about creating a function that, allows to read a line ending with a newline character `\n` from a file descriptor, without knowing its size beforehand. One of the goal of this project is to learn a highly interesting new concept in C programming: static variables, and to gain a deeper understanding of allocations, whether they happen on the stack memory or in the heap memory, the manipulation and the life cycle of a buffer, the unexpected complexity implied in the use of one or many static variables.
+This projects is about creating a function that, allows to read a line ending with a newline character `\n` from a file descriptor, without knowing its size beforehand. One of the goal of this project is to learn a highly interesting new concept in `C` programming: **static variables**, and to gain a deeper understanding of allocations, whether they happen on the stack memory or in the heap memory, the manipulation and the life cycle of a buffer, the unexpected complexity implied in the use of one or many static variables.
 
 </br>
 
