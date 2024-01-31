@@ -1,5 +1,5 @@
 # 42-get_next_line
-_Because reading a line from a fd is way too tedious_, this project is about creating your own function that returns a line read from one file descriptor or more, if you consider the bonus project requirement. The function get_next_line() returns NULL, if there is nothing else to read or if an error occurred. It should work as expected both when reading a file and when reading from the standard output.
+This project is about creating your own function that returns a line read from one file descriptor or more, if you consider the bonus project requirement. The function get_next_line() returns NULL, if there is nothing else to read or if an error occurred. It should work as expected both when reading a file and when reading from the standard output.
 
 </br>
 
@@ -17,7 +17,7 @@ Follow the steps below to test the project:
 
 1. Clone the repository:
 ```bash
-$> git clone https://github.com/Sepahsalar/42-push_swap.git
+$> git clone https://github.com/Sepahsalar/42-get_next_line.git
 ```
 2. Write your own test file and compile it with this command:
 ```bash
