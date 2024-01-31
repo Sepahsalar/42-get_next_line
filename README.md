@@ -39,11 +39,11 @@ There are different ways to solve the problem. You can use either an array or a 
 
 The project contains six files. The ones that ends with `_bonus` are the bonus project that reads a line from two or more file descriptors at the same time. To sum up,
 
-- `get_next_line.h`: contains the prototypes of all necessary functions to the project.
-- `get_next_line.c`: it has five functions. They are:
+- [`get_next_line.h`](get_next_line.h): contains the prototypes of all necessary functions to the project.
+- [`get_next_line.c`](get_next_line.c): it has five functions. They are:
   - `get_next_line()`: it's the project main function. It reads lines from the file descriptor, utilizing the other functions to handle buffering and extraction. Static variable `str` retains information between function calls;
   - `ft_read()`: Reads lines from a file descriptor up to a specified buffer size.
   - `ft_con()`: Determines the length of the line, including newline characters.
   - `ft_line()`: Extracts a line from the input string.
   - `ft_new_str()`: Generates a new string without the extracted line.
-- `get_next_line_utils.c`: implements helper functions to manipulate heap(or dynamic) memory and arrays.
+- [`get_next_line_utils.c`](get_next_line_utils.c): implements helper functions to manipulate heap(or dynamic) memory and arrays.
